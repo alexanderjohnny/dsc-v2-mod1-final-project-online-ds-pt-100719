@@ -186,62 +186,89 @@ The purpose of this project is to clean, explore, and model this dataset with a 
 from fsds_100719.imports import *
 ```
 
-    Requirement already up-to-date: fsds_100719 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (0.4.20)
-    Requirement already satisfied, skipping upgrade: ipywidgets in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (7.5.1)
-    Requirement already satisfied, skipping upgrade: pprint in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (0.1)
-    Requirement already satisfied, skipping upgrade: tzlocal in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (2.0.0)
+    Requirement already up-to-date: fsds_100719 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (0.4.34)
     Requirement already satisfied, skipping upgrade: seaborn in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (0.9.0)
-    Requirement already satisfied, skipping upgrade: scipy in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (1.3.1)
-    Requirement already satisfied, skipping upgrade: numpy in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (1.16.5)
-    Requirement already satisfied, skipping upgrade: matplotlib in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (3.1.1)
+    Requirement already satisfied, skipping upgrade: shap in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (0.32.1)
     Requirement already satisfied, skipping upgrade: pandas in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (0.25.1)
+    Requirement already satisfied, skipping upgrade: missingno in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (0.4.2)
     Requirement already satisfied, skipping upgrade: IPython in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (7.8.0)
+    Requirement already satisfied, skipping upgrade: pandas-profiling in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (2.3.0)
+    Requirement already satisfied, skipping upgrade: pprint in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (0.1)
+    Requirement already satisfied, skipping upgrade: ipywidgets in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (7.5.1)
+    Requirement already satisfied, skipping upgrade: scipy in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (1.3.1)
+    Requirement already satisfied, skipping upgrade: pyperclip in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (1.7.0)
+    Requirement already satisfied, skipping upgrade: matplotlib in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (3.1.1)
+    Requirement already satisfied, skipping upgrade: numpy in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (1.16.5)
+    Requirement already satisfied, skipping upgrade: tzlocal in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (2.0.0)
     Requirement already satisfied, skipping upgrade: scikit-learn in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from fsds_100719) (0.21.2)
-    Requirement already satisfied, skipping upgrade: ipykernel>=4.5.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from ipywidgets->fsds_100719) (5.1.2)
-    Requirement already satisfied, skipping upgrade: widgetsnbextension~=3.5.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from ipywidgets->fsds_100719) (3.5.1)
-    Requirement already satisfied, skipping upgrade: nbformat>=4.2.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from ipywidgets->fsds_100719) (4.4.0)
-    Requirement already satisfied, skipping upgrade: traitlets>=4.3.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from ipywidgets->fsds_100719) (4.3.2)
-    Requirement already satisfied, skipping upgrade: pytz in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from tzlocal->fsds_100719) (2019.2)
-    Requirement already satisfied, skipping upgrade: cycler>=0.10 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from matplotlib->fsds_100719) (0.10.0)
-    Requirement already satisfied, skipping upgrade: kiwisolver>=1.0.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from matplotlib->fsds_100719) (1.1.0)
-    Requirement already satisfied, skipping upgrade: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from matplotlib->fsds_100719) (2.4.2)
-    Requirement already satisfied, skipping upgrade: python-dateutil>=2.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from matplotlib->fsds_100719) (2.8.0)
-    Requirement already satisfied, skipping upgrade: setuptools>=18.5 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (41.2.0)
-    Requirement already satisfied, skipping upgrade: backcall in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (0.1.0)
+    Requirement already satisfied, skipping upgrade: tqdm>4.25.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from shap->fsds_100719) (4.36.1)
+    Requirement already satisfied, skipping upgrade: python-dateutil>=2.6.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pandas->fsds_100719) (2.8.0)
+    Requirement already satisfied, skipping upgrade: pytz>=2017.2 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pandas->fsds_100719) (2019.2)
     Requirement already satisfied, skipping upgrade: pickleshare in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (0.7.5)
+    Requirement already satisfied, skipping upgrade: setuptools>=18.5 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (41.2.0)
+    Requirement already satisfied, skipping upgrade: decorator in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (4.4.0)
+    Requirement already satisfied, skipping upgrade: backcall in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (0.1.0)
+    Requirement already satisfied, skipping upgrade: traitlets>=4.2 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (4.3.2)
     Requirement already satisfied, skipping upgrade: pexpect; sys_platform != "win32" in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (4.7.0)
     Requirement already satisfied, skipping upgrade: appnope; sys_platform == "darwin" in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (0.1.0)
     Requirement already satisfied, skipping upgrade: jedi>=0.10 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (0.15.1)
-    Requirement already satisfied, skipping upgrade: prompt-toolkit<2.1.0,>=2.0.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (2.0.9)
-    Requirement already satisfied, skipping upgrade: decorator in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (4.4.0)
     Requirement already satisfied, skipping upgrade: pygments in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (2.4.2)
+    Requirement already satisfied, skipping upgrade: prompt-toolkit<2.1.0,>=2.0.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from IPython->fsds_100719) (2.0.9)
+    Requirement already satisfied, skipping upgrade: jinja2>=2.8 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pandas-profiling->fsds_100719) (2.10.1)
+    Requirement already satisfied, skipping upgrade: htmlmin>=0.1.12 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pandas-profiling->fsds_100719) (0.1.12)
+    Requirement already satisfied, skipping upgrade: confuse>=1.0.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pandas-profiling->fsds_100719) (1.0.0)
+    Requirement already satisfied, skipping upgrade: phik>=0.9.8 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pandas-profiling->fsds_100719) (0.9.8)
+    Requirement already satisfied, skipping upgrade: astropy in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pandas-profiling->fsds_100719) (3.2.3)
+    Requirement already satisfied, skipping upgrade: ipykernel>=4.5.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from ipywidgets->fsds_100719) (5.1.2)
+    Requirement already satisfied, skipping upgrade: widgetsnbextension~=3.5.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from ipywidgets->fsds_100719) (3.5.1)
+    Requirement already satisfied, skipping upgrade: nbformat>=4.2.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from ipywidgets->fsds_100719) (4.4.0)
+    Requirement already satisfied, skipping upgrade: cycler>=0.10 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from matplotlib->fsds_100719) (0.10.0)
+    Requirement already satisfied, skipping upgrade: kiwisolver>=1.0.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from matplotlib->fsds_100719) (1.1.0)
+    Requirement already satisfied, skipping upgrade: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from matplotlib->fsds_100719) (2.4.2)
     Requirement already satisfied, skipping upgrade: joblib>=0.11 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from scikit-learn->fsds_100719) (0.13.2)
-    Requirement already satisfied, skipping upgrade: jupyter-client in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from ipykernel>=4.5.1->ipywidgets->fsds_100719) (5.3.3)
-    Requirement already satisfied, skipping upgrade: tornado>=4.2 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from ipykernel>=4.5.1->ipywidgets->fsds_100719) (6.0.3)
-    Requirement already satisfied, skipping upgrade: notebook>=4.4.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (5.7.8)
-    Requirement already satisfied, skipping upgrade: ipython_genutils in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbformat>=4.2.0->ipywidgets->fsds_100719) (0.2.0)
-    Requirement already satisfied, skipping upgrade: jsonschema!=2.5.0,>=2.4 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbformat>=4.2.0->ipywidgets->fsds_100719) (3.0.2)
-    Requirement already satisfied, skipping upgrade: jupyter_core in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbformat>=4.2.0->ipywidgets->fsds_100719) (4.5.0)
-    Requirement already satisfied, skipping upgrade: six in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from traitlets>=4.3.1->ipywidgets->fsds_100719) (1.12.0)
+    Requirement already satisfied, skipping upgrade: six>=1.5 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from python-dateutil>=2.6.1->pandas->fsds_100719) (1.12.0)
+    Requirement already satisfied, skipping upgrade: ipython_genutils in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from traitlets>=4.2->IPython->fsds_100719) (0.2.0)
     Requirement already satisfied, skipping upgrade: ptyprocess>=0.5 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pexpect; sys_platform != "win32"->IPython->fsds_100719) (0.6.0)
     Requirement already satisfied, skipping upgrade: parso>=0.5.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from jedi>=0.10->IPython->fsds_100719) (0.5.1)
     Requirement already satisfied, skipping upgrade: wcwidth in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from prompt-toolkit<2.1.0,>=2.0.0->IPython->fsds_100719) (0.1.7)
-    Requirement already satisfied, skipping upgrade: pyzmq>=13 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from jupyter-client->ipykernel>=4.5.1->ipywidgets->fsds_100719) (18.1.0)
+    Requirement already satisfied, skipping upgrade: MarkupSafe>=0.23 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from jinja2>=2.8->pandas-profiling->fsds_100719) (1.1.1)
+    Requirement already satisfied, skipping upgrade: pyyaml in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from confuse>=1.0.0->pandas-profiling->fsds_100719) (5.1.2)
+    Requirement already satisfied, skipping upgrade: nbconvert>=5.3.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from phik>=0.9.8->pandas-profiling->fsds_100719) (5.5.0)
+    Requirement already satisfied, skipping upgrade: pytest-pylint>=0.13.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from phik>=0.9.8->pandas-profiling->fsds_100719) (0.14.1)
+    Requirement already satisfied, skipping upgrade: numba>=0.38.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from phik>=0.9.8->pandas-profiling->fsds_100719) (0.46.0)
+    Requirement already satisfied, skipping upgrade: jupyter-client>=5.2.3 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from phik>=0.9.8->pandas-profiling->fsds_100719) (5.3.3)
+    Requirement already satisfied, skipping upgrade: pytest>=4.0.2 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from phik>=0.9.8->pandas-profiling->fsds_100719) (5.3.0)
+    Requirement already satisfied, skipping upgrade: tornado>=4.2 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from ipykernel>=4.5.1->ipywidgets->fsds_100719) (6.0.3)
+    Requirement already satisfied, skipping upgrade: notebook>=4.4.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (5.7.8)
+    Requirement already satisfied, skipping upgrade: jsonschema!=2.5.0,>=2.4 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbformat>=4.2.0->ipywidgets->fsds_100719) (3.0.2)
+    Requirement already satisfied, skipping upgrade: jupyter_core in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbformat>=4.2.0->ipywidgets->fsds_100719) (4.5.0)
+    Requirement already satisfied, skipping upgrade: testpath in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert>=5.3.1->phik>=0.9.8->pandas-profiling->fsds_100719) (0.4.2)
+    Requirement already satisfied, skipping upgrade: bleach in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert>=5.3.1->phik>=0.9.8->pandas-profiling->fsds_100719) (1.5.0)
+    Requirement already satisfied, skipping upgrade: pandocfilters>=1.4.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert>=5.3.1->phik>=0.9.8->pandas-profiling->fsds_100719) (1.4.2)
+    Requirement already satisfied, skipping upgrade: entrypoints>=0.2.2 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert>=5.3.1->phik>=0.9.8->pandas-profiling->fsds_100719) (0.3)
+    Requirement already satisfied, skipping upgrade: defusedxml in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert>=5.3.1->phik>=0.9.8->pandas-profiling->fsds_100719) (0.6.0)
+    Requirement already satisfied, skipping upgrade: mistune>=0.8.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert>=5.3.1->phik>=0.9.8->pandas-profiling->fsds_100719) (0.8.4)
+    Requirement already satisfied, skipping upgrade: pylint>=1.4.5 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pytest-pylint>=0.13.0->phik>=0.9.8->pandas-profiling->fsds_100719) (2.4.4)
+    Requirement already satisfied, skipping upgrade: llvmlite>=0.30.0dev0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from numba>=0.38.1->phik>=0.9.8->pandas-profiling->fsds_100719) (0.30.0)
+    Requirement already satisfied, skipping upgrade: pyzmq>=13 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from jupyter-client>=5.2.3->phik>=0.9.8->pandas-profiling->fsds_100719) (18.1.0)
+    Requirement already satisfied, skipping upgrade: py>=1.5.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pytest>=4.0.2->phik>=0.9.8->pandas-profiling->fsds_100719) (1.8.0)
+    Requirement already satisfied, skipping upgrade: packaging in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pytest>=4.0.2->phik>=0.9.8->pandas-profiling->fsds_100719) (19.2)
+    Requirement already satisfied, skipping upgrade: more-itertools>=4.0.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pytest>=4.0.2->phik>=0.9.8->pandas-profiling->fsds_100719) (7.0.0)
+    Requirement already satisfied, skipping upgrade: pluggy<1.0,>=0.12 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pytest>=4.0.2->phik>=0.9.8->pandas-profiling->fsds_100719) (0.12.0)
+    Requirement already satisfied, skipping upgrade: attrs>=17.4.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pytest>=4.0.2->phik>=0.9.8->pandas-profiling->fsds_100719) (19.1.0)
+    Requirement already satisfied, skipping upgrade: importlib-metadata>=0.12; python_version < "3.8" in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pytest>=4.0.2->phik>=0.9.8->pandas-profiling->fsds_100719) (0.17)
     Requirement already satisfied, skipping upgrade: Send2Trash in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (1.5.0)
-    Requirement already satisfied, skipping upgrade: prometheus-client in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (0.7.1)
-    Requirement already satisfied, skipping upgrade: nbconvert in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (5.5.0)
-    Requirement already satisfied, skipping upgrade: jinja2 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (2.10.1)
     Requirement already satisfied, skipping upgrade: terminado>=0.8.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (0.8.2)
-    Requirement already satisfied, skipping upgrade: attrs>=17.4.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from jsonschema!=2.5.0,>=2.4->nbformat>=4.2.0->ipywidgets->fsds_100719) (19.1.0)
+    Requirement already satisfied, skipping upgrade: prometheus-client in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (0.7.1)
     Requirement already satisfied, skipping upgrade: pyrsistent>=0.14.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from jsonschema!=2.5.0,>=2.4->nbformat>=4.2.0->ipywidgets->fsds_100719) (0.14.11)
-    Requirement already satisfied, skipping upgrade: bleach in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (1.5.0)
-    Requirement already satisfied, skipping upgrade: defusedxml in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (0.6.0)
-    Requirement already satisfied, skipping upgrade: testpath in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (0.4.2)
-    Requirement already satisfied, skipping upgrade: pandocfilters>=1.4.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (1.4.2)
-    Requirement already satisfied, skipping upgrade: mistune>=0.8.1 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (0.8.4)
-    Requirement already satisfied, skipping upgrade: entrypoints>=0.2.2 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (0.3)
-    Requirement already satisfied, skipping upgrade: MarkupSafe>=0.23 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from jinja2->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (1.1.1)
-    Requirement already satisfied, skipping upgrade: html5lib!=0.9999,!=0.99999,<0.99999999,>=0.999 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from bleach->nbconvert->notebook>=4.4.1->widgetsnbextension~=3.5.0->ipywidgets->fsds_100719) (0.9999999)
+    Requirement already satisfied, skipping upgrade: html5lib!=0.9999,!=0.99999,<0.99999999,>=0.999 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from bleach->nbconvert>=5.3.1->phik>=0.9.8->pandas-profiling->fsds_100719) (0.9999999)
+    Requirement already satisfied, skipping upgrade: isort<5,>=4.2.5 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pylint>=1.4.5->pytest-pylint>=0.13.0->phik>=0.9.8->pandas-profiling->fsds_100719) (4.3.21)
+    Requirement already satisfied, skipping upgrade: mccabe<0.7,>=0.6 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pylint>=1.4.5->pytest-pylint>=0.13.0->phik>=0.9.8->pandas-profiling->fsds_100719) (0.6.1)
+    Requirement already satisfied, skipping upgrade: astroid<2.4,>=2.3.0 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from pylint>=1.4.5->pytest-pylint>=0.13.0->phik>=0.9.8->pandas-profiling->fsds_100719) (2.3.3)
+    Requirement already satisfied, skipping upgrade: zipp>=0.5 in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest>=4.0.2->phik>=0.9.8->pandas-profiling->fsds_100719) (0.5.1)
+    Requirement already satisfied, skipping upgrade: typed-ast<1.5,>=1.4.0; implementation_name == "cpython" and python_version < "3.8" in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from astroid<2.4,>=2.3.0->pylint>=1.4.5->pytest-pylint>=0.13.0->phik>=0.9.8->pandas-profiling->fsds_100719) (1.4.0)
+    Requirement already satisfied, skipping upgrade: wrapt==1.11.* in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from astroid<2.4,>=2.3.0->pylint>=1.4.5->pytest-pylint>=0.13.0->phik>=0.9.8->pandas-profiling->fsds_100719) (1.11.2)
+    Requirement already satisfied, skipping upgrade: lazy-object-proxy==1.4.* in /anaconda3/envs/learn-env/lib/python3.6/site-packages (from astroid<2.4,>=2.3.0->pylint>=1.4.5->pytest-pylint>=0.13.0->phik>=0.9.8->pandas-profiling->fsds_100719) (1.4.3)
 
 
 
@@ -1442,11 +1469,11 @@ df['sqft_basement'].value_counts()
     500.0       206
     700.0       205
               ...  
-    518.0         1
-    516.0         1
-    143.0         1
-    415.0         1
-    2810.0        1
+    65.0          1
+    2050.0        1
+    2350.0        1
+    1024.0        1
+    295.0         1
     Name: sqft_basement, Length: 304, dtype: int64
 
 
@@ -4042,11 +4069,11 @@ display(df_filtered1.plot(kind='scatter', x='bedrooms', y='price', alpha=0.4, co
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1c1d2fb198>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1c22c2f198>
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1c1e3cfac8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1c22bc8470>
 
 
 
@@ -4232,11 +4259,11 @@ display(df_filtered1.plot(kind='scatter', x='bathrooms', y='price', alpha=0.4, c
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1c1d333b38>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1c233c6940>
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1c1d317160>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1c1dc95da0>
 
 
 
@@ -4428,11 +4455,11 @@ display(df_filtered1.plot(kind='scatter', x='sqft_living', y='price', alpha=0.4,
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1c1f3a5048>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1c233e9128>
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1c1cc684a8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1c23319f28>
 
 
 
@@ -4630,11 +4657,11 @@ display(df_filtered1.plot(kind='scatter', x='sqft_lot', y='price', alpha=0.4, co
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1c1d97c1d0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1c23304cf8>
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1c1cd2ecf8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1c29590a90>
 
 
 
@@ -4838,11 +4865,11 @@ display(df_filtered1.plot(kind='scatter', x='sqft_lot15', y='price', alpha=0.4, 
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1c1d63d8d0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1c205a6278>
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1c1d1523c8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1c26286da0>
 
 
 
@@ -5265,10 +5292,10 @@ model.summary()
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>  <td>   3370.</td>  
 </tr>
 <tr>
-  <th>Date:</th>             <td>Fri, 15 Nov 2019</td> <th>  Prob (F-statistic):</th>   <td>  0.00</td>   
+  <th>Date:</th>             <td>Tue, 19 Nov 2019</td> <th>  Prob (F-statistic):</th>   <td>  0.00</td>   
 </tr>
 <tr>
-  <th>Time:</th>                 <td>19:16:39</td>     <th>  Log-Likelihood:    </th> <td>-2.8738e+05</td>
+  <th>Time:</th>                 <td>18:52:37</td>     <th>  Log-Likelihood:    </th> <td>-2.8738e+05</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td> 21059</td>      <th>  AIC:               </th>  <td>5.748e+05</td> 
@@ -5394,10 +5421,10 @@ model.summary()
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>  <td>   318.9</td>  
 </tr>
 <tr>
-  <th>Date:</th>             <td>Fri, 15 Nov 2019</td> <th>  Prob (F-statistic):</th>   <td>  0.00</td>   
+  <th>Date:</th>             <td>Tue, 19 Nov 2019</td> <th>  Prob (F-statistic):</th>   <td>  0.00</td>   
 </tr>
 <tr>
-  <th>Time:</th>                 <td>19:22:08</td>     <th>  Log-Likelihood:    </th> <td>-2.8262e+05</td>
+  <th>Time:</th>                 <td>18:52:43</td>     <th>  Log-Likelihood:    </th> <td>-2.8262e+05</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td> 21059</td>      <th>  AIC:               </th>  <td>5.658e+05</td> 
@@ -6528,10 +6555,10 @@ model.summary()
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>  <td>   318.9</td>  
 </tr>
 <tr>
-  <th>Date:</th>             <td>Fri, 15 Nov 2019</td> <th>  Prob (F-statistic):</th>   <td>  0.00</td>   
+  <th>Date:</th>             <td>Tue, 19 Nov 2019</td> <th>  Prob (F-statistic):</th>   <td>  0.00</td>   
 </tr>
 <tr>
-  <th>Time:</th>                 <td>21:20:09</td>     <th>  Log-Likelihood:    </th> <td>-2.8262e+05</td>
+  <th>Time:</th>                 <td>18:53:04</td>     <th>  Log-Likelihood:    </th> <td>-2.8262e+05</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td> 21059</td>      <th>  AIC:               </th>  <td>5.658e+05</td> 
@@ -7413,7 +7440,734 @@ axes.set_ylim(len(df_filtered1.corr()),-0.5,+0.5)
 # or I can try scaling it to see if that changes anything. 
 ```
 
+### New model with only specific coeffs to compare.
+
+
+```python
+# create model using best coeffs list of predictors by typing them all out. 
+outcome = 'price'
+x_cols = ['bedrooms', 'bathrooms', 'scaled_sqft_living', 'scaled_sqft_lot',
+        'C(condition)', 'grade',]
+predictors = '+'.join(x_cols)
+formula = outcome + '~' + predictors
+model = smf.ols(formula=formula, data=df_filtered1).fit()
+model.summary()
+```
+
+
+
+
+<table class="simpletable">
+<caption>OLS Regression Results</caption>
+<tr>
+  <th>Dep. Variable:</th>          <td>price</td>      <th>  R-squared:         </th>  <td>   0.559</td>  
+</tr>
+<tr>
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared:    </th>  <td>   0.559</td>  
+</tr>
+<tr>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>  <td>   2965.</td>  
+</tr>
+<tr>
+  <th>Date:</th>             <td>Tue, 19 Nov 2019</td> <th>  Prob (F-statistic):</th>   <td>  0.00</td>   
+</tr>
+<tr>
+  <th>Time:</th>                 <td>18:53:11</td>     <th>  Log-Likelihood:    </th> <td>-2.9114e+05</td>
+</tr>
+<tr>
+  <th>No. Observations:</th>      <td> 21059</td>      <th>  AIC:               </th>  <td>5.823e+05</td> 
+</tr>
+<tr>
+  <th>Df Residuals:</th>          <td> 21049</td>      <th>  BIC:               </th>  <td>5.824e+05</td> 
+</tr>
+<tr>
+  <th>Df Model:</th>              <td>     9</td>      <th>                     </th>      <td> </td>     
+</tr>
+<tr>
+  <th>Covariance Type:</th>      <td>nonrobust</td>    <th>                     </th>      <td> </td>     
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+           <td></td>             <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
+</tr>
+<tr>
+  <th>Intercept</th>          <td>-3.249e+05</td> <td> 4.82e+04</td> <td>   -6.742</td> <td> 0.000</td> <td>-4.19e+05</td> <td> -2.3e+05</td>
+</tr>
+<tr>
+  <th>C(condition)[T.2]</th>  <td>  -8.4e+04</td> <td> 5.02e+04</td> <td>   -1.674</td> <td> 0.094</td> <td>-1.82e+05</td> <td> 1.44e+04</td>
+</tr>
+<tr>
+  <th>C(condition)[T.3]</th>  <td>-1.357e+05</td> <td> 4.63e+04</td> <td>   -2.929</td> <td> 0.003</td> <td>-2.27e+05</td> <td>-4.49e+04</td>
+</tr>
+<tr>
+  <th>C(condition)[T.4]</th>  <td>-6.965e+04</td> <td> 4.64e+04</td> <td>   -1.502</td> <td> 0.133</td> <td>-1.61e+05</td> <td> 2.12e+04</td>
+</tr>
+<tr>
+  <th>C(condition)[T.5]</th>  <td> 1.597e+04</td> <td> 4.66e+04</td> <td>    0.342</td> <td> 0.732</td> <td>-7.54e+04</td> <td> 1.07e+05</td>
+</tr>
+<tr>
+  <th>bedrooms</th>           <td>-5.142e+04</td> <td> 2415.722</td> <td>  -21.285</td> <td> 0.000</td> <td>-5.62e+04</td> <td>-4.67e+04</td>
+</tr>
+<tr>
+  <th>bathrooms</th>          <td>-1.714e+04</td> <td> 3530.467</td> <td>   -4.855</td> <td> 0.000</td> <td>-2.41e+04</td> <td>-1.02e+04</td>
+</tr>
+<tr>
+  <th>scaled_sqft_living</th> <td> 2.707e+06</td> <td> 4.35e+04</td> <td>   62.265</td> <td> 0.000</td> <td> 2.62e+06</td> <td> 2.79e+06</td>
+</tr>
+<tr>
+  <th>scaled_sqft_lot</th>    <td>-5.415e+05</td> <td> 7.45e+04</td> <td>   -7.270</td> <td> 0.000</td> <td>-6.88e+05</td> <td>-3.96e+05</td>
+</tr>
+<tr>
+  <th>grade</th>              <td> 1.033e+05</td> <td> 2364.246</td> <td>   43.680</td> <td> 0.000</td> <td> 9.86e+04</td> <td> 1.08e+05</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+  <th>Omnibus:</th>       <td>15984.277</td> <th>  Durbin-Watson:     </th>  <td>   1.991</td> 
+</tr>
+<tr>
+  <th>Prob(Omnibus):</th>  <td> 0.000</td>   <th>  Jarque-Bera (JB):  </th> <td>882814.966</td>
+</tr>
+<tr>
+  <th>Skew:</th>           <td> 3.151</td>   <th>  Prob(JB):          </th>  <td>    0.00</td> 
+</tr>
+<tr>
+  <th>Kurtosis:</th>       <td>34.087</td>   <th>  Cond. No.          </th>  <td>    544.</td> 
+</tr>
+</table><br/><br/>Warnings:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+```python
+# that whole model is messed up now. Pulling up qq plots.
+
+plt.style.use('ggplot')
+
+f = 'price~bedrooms'
+f2 = 'price~bathrooms'
+f3 = 'price~scaled_sqft_living'
+f4 = 'price~scaled_sqft_lot'
+# f5 = 'price~C(condition)'
+f6 = 'price~grade'
+model = smf.ols(formula=f, data=df_filtered1).fit()
+model2 = smf.ols(formula=f2, data=df_filtered1).fit()
+model3 = smf.ols(formula=f3, data=df_filtered1).fit()
+model4 = smf.ols(formula=f4, data=df_filtered1).fit()
+# model5 = smf.ols(formula=f5, data=data).fit()
+model6 = smf.ols(formula=f6, data=df_filtered1).fit()
+
+
+resid1 = model.resid
+resid2 = model2.resid
+resid3 = model3.resid
+resid4 = model4.resid
+# resid5 = model5.resid
+resid6 = model6.resid
+
+fig = sm.graphics.qqplot(resid1, dist=stats.norm, line='45', fit=True)
+fig = sm.graphics.qqplot(resid2, dist=stats.norm, line='45', fit=True)
+fig = sm.graphics.qqplot(resid3, dist=stats.norm, line='45', fit=True)
+fig = sm.graphics.qqplot(resid4, dist=stats.norm, line='45', fit=True)
+# fig = sm.graphics.qqplot(resid5, dist=stats.norm, line='45', fit=True)
+fig = sm.graphics.qqplot(resid6, dist=stats.norm, line='45', fit=True)
+```
+
+
+![png](output_162_0.png)
+
+
+
+![png](output_162_1.png)
+
+
+
+![png](output_162_2.png)
+
+
+
+![png](output_162_3.png)
+
+
+
+![png](output_162_4.png)
+
+
+
+```python
+# all of my variables are messed up and have outliers falling way off of the line. No clue how to fix this. Filter the price ?
+```
+
 # iNTERPRET
+
+
+```python
+df_filtered1.shape
+```
+
+
+
+
+    (21059, 20)
+
+
+
+
+```python
+df_filtered1.describe()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>price</th>
+      <th>bedrooms</th>
+      <th>bathrooms</th>
+      <th>sqft_living</th>
+      <th>sqft_lot</th>
+      <th>floors</th>
+      <th>waterfront</th>
+      <th>condition</th>
+      <th>grade</th>
+      <th>yr_built</th>
+      <th>yr_renovated</th>
+      <th>zipcode</th>
+      <th>lat</th>
+      <th>long</th>
+      <th>sqft_lot15</th>
+      <th>scaled_sqft_living</th>
+      <th>scaled_sqft_lot</th>
+      <th>scaled_lat</th>
+      <th>scaled_long</th>
+      <th>scaled_sqft_lot15</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>count</td>
+      <td>2.105900e+04</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>2.105900e+04</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+      <td>21059.000000</td>
+    </tr>
+    <tr>
+      <td>mean</td>
+      <td>5.392477e+05</td>
+      <td>3.373854</td>
+      <td>2.114072</td>
+      <td>2071.458521</td>
+      <td>1.195228e+04</td>
+      <td>1.495133</td>
+      <td>0.006790</td>
+      <td>3.412033</td>
+      <td>7.654969</td>
+      <td>1970.897621</td>
+      <td>69.097251</td>
+      <td>98078.450639</td>
+      <td>47.561666</td>
+      <td>-122.216805</td>
+      <td>9797.450401</td>
+      <td>0.145673</td>
+      <td>0.009819</td>
+      <td>0.652672</td>
+      <td>0.247869</td>
+      <td>0.097290</td>
+    </tr>
+    <tr>
+      <td>std</td>
+      <td>3.679167e+05</td>
+      <td>0.903651</td>
+      <td>0.765593</td>
+      <td>905.122712</td>
+      <td>2.686565e+04</td>
+      <td>0.540648</td>
+      <td>0.082126</td>
+      <td>0.650613</td>
+      <td>1.164359</td>
+      <td>29.465601</td>
+      <td>364.913382</td>
+      <td>53.636967</td>
+      <td>0.137634</td>
+      <td>0.138271</td>
+      <td>10169.465078</td>
+      <td>0.077493</td>
+      <td>0.023075</td>
+      <td>0.221384</td>
+      <td>0.115322</td>
+      <td>0.108172</td>
+    </tr>
+    <tr>
+      <td>min</td>
+      <td>7.800000e+04</td>
+      <td>1.000000</td>
+      <td>0.500000</td>
+      <td>370.000000</td>
+      <td>5.200000e+02</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>1900.000000</td>
+      <td>0.000000</td>
+      <td>98001.000000</td>
+      <td>47.155900</td>
+      <td>-122.514000</td>
+      <td>651.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>25%</td>
+      <td>3.200000e+05</td>
+      <td>3.000000</td>
+      <td>1.750000</td>
+      <td>1420.000000</td>
+      <td>5.001000e+03</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>3.000000</td>
+      <td>7.000000</td>
+      <td>1951.000000</td>
+      <td>0.000000</td>
+      <td>98033.000000</td>
+      <td>47.474700</td>
+      <td>-122.329000</td>
+      <td>5075.000000</td>
+      <td>0.089897</td>
+      <td>0.003849</td>
+      <td>0.512788</td>
+      <td>0.154295</td>
+      <td>0.047058</td>
+    </tr>
+    <tr>
+      <td>50%</td>
+      <td>4.500000e+05</td>
+      <td>3.000000</td>
+      <td>2.250000</td>
+      <td>1910.000000</td>
+      <td>7.540000e+03</td>
+      <td>1.500000</td>
+      <td>0.000000</td>
+      <td>3.000000</td>
+      <td>7.000000</td>
+      <td>1975.000000</td>
+      <td>0.000000</td>
+      <td>98065.000000</td>
+      <td>47.573600</td>
+      <td>-122.234000</td>
+      <td>7560.000000</td>
+      <td>0.131849</td>
+      <td>0.006030</td>
+      <td>0.671867</td>
+      <td>0.233528</td>
+      <td>0.073491</td>
+    </tr>
+    <tr>
+      <td>75%</td>
+      <td>6.430000e+05</td>
+      <td>4.000000</td>
+      <td>2.500000</td>
+      <td>2540.000000</td>
+      <td>1.040000e+04</td>
+      <td>2.000000</td>
+      <td>0.000000</td>
+      <td>4.000000</td>
+      <td>8.000000</td>
+      <td>1997.000000</td>
+      <td>0.000000</td>
+      <td>98118.000000</td>
+      <td>47.678550</td>
+      <td>-122.129000</td>
+      <td>9930.000000</td>
+      <td>0.185788</td>
+      <td>0.008486</td>
+      <td>0.840679</td>
+      <td>0.321101</td>
+      <td>0.098700</td>
+    </tr>
+    <tr>
+      <td>max</td>
+      <td>7.700000e+06</td>
+      <td>11.000000</td>
+      <td>8.000000</td>
+      <td>12050.000000</td>
+      <td>1.164794e+06</td>
+      <td>3.500000</td>
+      <td>1.000000</td>
+      <td>5.000000</td>
+      <td>13.000000</td>
+      <td>2015.000000</td>
+      <td>2015.000000</td>
+      <td>98199.000000</td>
+      <td>47.777600</td>
+      <td>-121.315000</td>
+      <td>94663.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+df_basic.shape
+```
+
+
+
+
+    (21420, 20)
+
+
+
+
+```python
+df_basic.describe()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>price</th>
+      <th>bedrooms</th>
+      <th>bathrooms</th>
+      <th>sqft_living</th>
+      <th>sqft_lot</th>
+      <th>floors</th>
+      <th>waterfront</th>
+      <th>condition</th>
+      <th>grade</th>
+      <th>yr_built</th>
+      <th>yr_renovated</th>
+      <th>zipcode</th>
+      <th>lat</th>
+      <th>long</th>
+      <th>sqft_lot15</th>
+      <th>z_score_bedrooms</th>
+      <th>z_score_bathrooms</th>
+      <th>z_score_sqft_living</th>
+      <th>z_score_sqft_lot</th>
+      <th>z_score_sqft_lot15</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>count</td>
+      <td>2.142000e+04</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>2.142000e+04</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.00000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+      <td>21420.000000</td>
+    </tr>
+    <tr>
+      <td>mean</td>
+      <td>5.407393e+05</td>
+      <td>3.372549</td>
+      <td>2.118429</td>
+      <td>2083.132633</td>
+      <td>1.512804e+04</td>
+      <td>1.495985</td>
+      <td>0.006816</td>
+      <td>3.410784</td>
+      <td>7.662792</td>
+      <td>1971.092997</td>
+      <td>68.956723</td>
+      <td>98077.87437</td>
+      <td>47.560197</td>
+      <td>-122.213784</td>
+      <td>12775.718161</td>
+      <td>0.810073</td>
+      <td>0.798798</td>
+      <td>0.760465</td>
+      <td>0.334145</td>
+      <td>0.370691</td>
+    </tr>
+    <tr>
+      <td>std</td>
+      <td>3.679311e+05</td>
+      <td>0.902995</td>
+      <td>0.768720</td>
+      <td>918.808412</td>
+      <td>4.153080e+04</td>
+      <td>0.540081</td>
+      <td>0.082280</td>
+      <td>0.650035</td>
+      <td>1.171971</td>
+      <td>29.387141</td>
+      <td>364.552298</td>
+      <td>53.47748</td>
+      <td>0.138589</td>
+      <td>0.140791</td>
+      <td>27345.621867</td>
+      <td>0.586343</td>
+      <td>0.601613</td>
+      <td>0.649394</td>
+      <td>0.942544</td>
+      <td>0.928778</td>
+    </tr>
+    <tr>
+      <td>min</td>
+      <td>7.800000e+04</td>
+      <td>1.000000</td>
+      <td>0.500000</td>
+      <td>370.000000</td>
+      <td>5.200000e+02</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>1900.000000</td>
+      <td>0.000000</td>
+      <td>98001.00000</td>
+      <td>47.155900</td>
+      <td>-122.519000</td>
+      <td>651.000000</td>
+      <td>0.412580</td>
+      <td>0.154064</td>
+      <td>0.002032</td>
+      <td>0.000097</td>
+      <td>0.000120</td>
+    </tr>
+    <tr>
+      <td>25%</td>
+      <td>3.225000e+05</td>
+      <td>3.000000</td>
+      <td>1.750000</td>
+      <td>1430.000000</td>
+      <td>5.040000e+03</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>3.000000</td>
+      <td>7.000000</td>
+      <td>1952.000000</td>
+      <td>0.000000</td>
+      <td>98033.00000</td>
+      <td>47.471200</td>
+      <td>-122.328000</td>
+      <td>5100.000000</td>
+      <td>0.412580</td>
+      <td>0.479287</td>
+      <td>0.312224</td>
+      <td>0.143946</td>
+      <td>0.146488</td>
+    </tr>
+    <tr>
+      <td>50%</td>
+      <td>4.500000e+05</td>
+      <td>3.000000</td>
+      <td>2.250000</td>
+      <td>1920.000000</td>
+      <td>7.614000e+03</td>
+      <td>1.500000</td>
+      <td>0.000000</td>
+      <td>3.000000</td>
+      <td>7.000000</td>
+      <td>1975.000000</td>
+      <td>0.000000</td>
+      <td>98065.00000</td>
+      <td>47.572100</td>
+      <td>-122.230000</td>
+      <td>7620.000000</td>
+      <td>0.694872</td>
+      <td>0.496383</td>
+      <td>0.645561</td>
+      <td>0.199749</td>
+      <td>0.218531</td>
+    </tr>
+    <tr>
+      <td>75%</td>
+      <td>6.450000e+05</td>
+      <td>4.000000</td>
+      <td>2.500000</td>
+      <td>2550.000000</td>
+      <td>1.069050e+04</td>
+      <td>2.000000</td>
+      <td>0.000000</td>
+      <td>4.000000</td>
+      <td>8.000000</td>
+      <td>1997.000000</td>
+      <td>0.000000</td>
+      <td>98117.00000</td>
+      <td>47.678100</td>
+      <td>-122.125000</td>
+      <td>10086.250000</td>
+      <td>0.694872</td>
+      <td>1.454958</td>
+      <td>1.037382</td>
+      <td>0.263571</td>
+      <td>0.307340</td>
+    </tr>
+    <tr>
+      <td>max</td>
+      <td>7.700000e+06</td>
+      <td>11.000000</td>
+      <td>8.000000</td>
+      <td>13540.000000</td>
+      <td>1.651359e+06</td>
+      <td>3.500000</td>
+      <td>1.000000</td>
+      <td>5.000000</td>
+      <td>13.000000</td>
+      <td>2015.000000</td>
+      <td>2015.000000</td>
+      <td>98199.00000</td>
+      <td>47.777600</td>
+      <td>-121.315000</td>
+      <td>871200.000000</td>
+      <td>8.447032</td>
+      <td>7.651302</td>
+      <td>12.469558</td>
+      <td>39.398935</td>
+      <td>31.392386</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+### bedroom vs bathroom
+
+
+```python
+# it looks like my data was filtered above but was never removed from the df so I've been running my model 
+# with all the outliers from original df. 
+```
+
+
+```python
+# bedrooms	-32320
+# bathrooms	21680
+# according to my previous model the bathrooms have a bigger coeff and more positive relationship with price.
+df_filtered1.plot(kind='scatter', x='bedrooms', y='price', alpha=0.4, color='b')
+df_filtered1.plot(kind='scatter', x='bathrooms', y='price', alpha=0.4, color='b');
+```
+
+
+![png](output_171_0.png)
+
+
+
+![png](output_171_1.png)
+
+
+### sqft living vs sqft lot
+
+
+```python
+# scaled_sqft_living	2273000
+# scaled_sqft_lot	220900
+# according to model my sqft living area is more significant
+df_filtered1.plot(kind='scatter', x='sqft_living', y='price', alpha=0.4, color='b')
+df_filtered1.plot(kind='scatter', x='sqft_lot', y='price', alpha=0.4, color='b');
+```
+
+
+![png](output_173_0.png)
+
+
+
+![png](output_173_1.png)
+
+
+### condition vs grade
+
+
+```python
+# grade	75270
+# C(condition)[T.2]	54930
+# C(condition)[T.3]	47460
+# C(condition)[T.4]	69170
+# C(condition)[T.5]	103100
+# grade is more significant unless your house is condition level 5. 
+df_filtered1.plot(kind='scatter', x='condition', y='price', alpha=0.4, color='b')
+df_filtered1.plot(kind='scatter', x='grade', y='price', alpha=0.4, color='b');
+```
+
+
+![png](output_175_0.png)
+
+
+
+![png](output_175_1.png)
+
 
 
 ```python
@@ -7422,4 +8176,14 @@ axes.set_ylim(len(df_filtered1.corr()),-0.5,+0.5)
 
 # CONCLUSIONS & RECOMMENDATIONS
 
-> Summarize your conclusions and bullet-point your list of recommendations, which are based on your modeling results.
+> Best predictors for house pricing:
+    - # of bathrooms (recommend adding a bathroom to your home)
+    - square footage of living area (recommend finding most sqft you can afford)
+    - grade of house based on King County grading system (look for best grade rating for quality. higher grade 
+        is also usually paired with higher sqft area too.)
+
+
+
+```python
+
+```
